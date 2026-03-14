@@ -1,12 +1,12 @@
 # Crossroads Demo Prep
 
-Prep workspace for a demo website for **The Crossroads**, a playful color bar / salon concept with attached health product sales.
+Prep workspace for a GitHub Pages website demo for **The Crossroads**, a playful color bar / salon concept with attached health product sales.
 
 ## Purpose
 
 This repository is for:
 
-- website prototyping
+- static website prototyping
 - agent and LLM workflow setup
 - research and market-summary guardrails
 - content and product planning
@@ -15,11 +15,21 @@ The demo may use fictional business details for structure and design exploration
 
 ## Initial Structure
 
-- `apps/web/` - future website application
+- `apps/web/` - static site source for GitHub Pages
 - `agents/` - prompts, policies, and YAML configs for assistants
 - `data/` - structured business, product, and content data
 - `docs/` - workflow docs, research notes, and planning
 - `scripts/` - automation helpers for setup and reporting
+
+## Deployment
+
+The repository is configured to deploy `apps/web/` to GitHub Pages using GitHub Actions.
+
+After GitHub Pages is enabled for this repository, pushes to `main` will publish the static site.
+
+## License
+
+This repository uses a proprietary "All rights reserved" license. See `LICENSE.txt`.
 
 ## Non-Negotiable Research Rule
 
